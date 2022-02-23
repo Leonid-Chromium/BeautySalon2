@@ -1,0 +1,141 @@
+﻿<UserControl x:Class="BeautySalon.NewClientUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BeautySalon"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             Loaded="UserControl_Loaded"
+             IsVisibleChanged="UserControl_IsVisibleChanged">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Exit"
+                Content="Назад"
+                Grid.Row="0"
+                HorizontalAlignment="Left" VerticalAlignment="Center"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                Margin="10"
+                Click="Exit_Click"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Content="Фамилия"
+                   Grid.Row="0" Grid.Column="0"
+                   HorizontalAlignment="Left" VerticalAlignment="Center"
+                   HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                   Margin="3"/>
+            <Label Content="Имя"
+                   Grid.Row="1" Grid.Column="0"
+                   HorizontalAlignment="Left" VerticalAlignment="Center"
+                   HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                   Margin="3"/>
+            <Label Content="Отчество"
+                   Grid.Row="2" Grid.Column="0"
+                   HorizontalAlignment="Left" VerticalAlignment="Center"
+                   HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                   Margin="3"/>
+            <Label Content="День рождения"
+                   Grid.Row="3" Grid.Column="0"
+                   HorizontalAlignment="Left" VerticalAlignment="Center"
+                   HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                   Margin="3"/>
+            <Label Content="Дата регистрации"
+                   Grid.Row="4" Grid.Column="0"
+                   HorizontalAlignment="Left" VerticalAlignment="Center"
+                   HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                   Margin="3"/>
+            <Label Content="E-mail"
+                   Grid.Row="5" Grid.Column="0"
+                   HorizontalAlignment="Left" VerticalAlignment="Center"
+                   HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                   Margin="3"/>
+            <Label Content="Мобильный телефон"
+                   Grid.Row="6" Grid.Column="0"
+                   HorizontalAlignment="Left" VerticalAlignment="Center"
+                   HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                   Margin="3"/>
+            <Label Content="Пол"
+                   Grid.Row="7" Grid.Column="0"
+                   HorizontalAlignment="Left" VerticalAlignment="Center"
+                   HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                   Margin="3"/>
+            <Label Content="Путь к фотографии"
+                   Grid.Row="8" Grid.Column="0"
+                   HorizontalAlignment="Left" VerticalAlignment="Center"
+                   HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                   Margin="3"/>
+
+            <TextBox x:Name="LastNameTB"
+                   Grid.Row="0" Grid.Column="1"
+                   VerticalAlignment="Center"
+                   VerticalContentAlignment="Center"
+                   Margin="5"/>
+            <TextBox x:Name="FirstNameTB"
+                   Grid.Row="1" Grid.Column="1"
+                   VerticalAlignment="Center"
+                   VerticalContentAlignment="Center"
+                   Margin="5"/>
+            <TextBox x:Name="PatronymicTB"
+                   Grid.Row="2" Grid.Column="1"
+                   VerticalAlignment="Center"
+                   VerticalContentAlignment="Center"
+                   Margin="5"/>
+            <DatePicker x:Name="BirthdayDP"
+                        Grid.Row="3" Grid.Column="1"
+                        VerticalAlignment="Center"
+                        VerticalContentAlignment="Center"
+                        Margin="5"/>
+            <DatePicker x:Name="RegistrationDP"
+                        Grid.Row="4" Grid.Column="1"
+                        VerticalAlignment="Center"
+                        VerticalContentAlignment="Center"
+                        Margin="5"/>
+            <TextBox x:Name="EmailTB"
+                   Grid.Row="5" Grid.Column="1"
+                   VerticalAlignment="Center"
+                   VerticalContentAlignment="Center"
+                   Margin="5"/>
+            <TextBox x:Name="PhoneTB"
+                   Grid.Row="6" Grid.Column="1"
+                   VerticalAlignment="Center"
+                   VerticalContentAlignment="Center"
+                   Margin="5"/>
+            <ComboBox Name="GenderCB"
+                      Grid.Row="7" Grid.Column="1"
+                      VerticalAlignment="Center"
+                      VerticalContentAlignment="Center"
+                      Margin="5">
+                <ComboBoxItem Content="Выберите пол" IsSelected="True"/>
+            </ComboBox>
+            <TextBox x:Name="PhotoPathTB"
+                   Grid.Row="8" Grid.Column="1"
+                   VerticalAlignment="Center"
+                   VerticalContentAlignment="Center"
+                   Margin="5"/>
+        </Grid>
+        <Button x:Name="NewClientButton"
+                Content="Новый клиент"
+                Grid.Row="2"
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                Click="NewClientButton_Click"/>
+    </Grid>
+</UserControl>

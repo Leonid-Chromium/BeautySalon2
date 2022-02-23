@@ -1,0 +1,61 @@
+﻿<Window x:Class="BeautySalon.AddServiceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BeautySalon"
+        mc:Ignorable="d"
+        Title="AddServiceWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="addGrid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Content="Название услуги"/>
+            <Label Grid.Row="1" Grid.Column="0" Content="Стоимость"/>
+            <Label Grid.Row="2" Grid.Column="0" Content="Длительность в минутах"/>
+            <Label Grid.Row="3" Grid.Column="0" Content="Описание"/>
+            <Label Grid.Row="4" Grid.Column="0" Content="Скидка"/>
+            <Label Grid.Row="5" Grid.Column="0" Content="Путь к главной фотографии"/>
+
+            <TextBox x:Name="ServiceNameTB"
+                       Grid.Row="0" Grid.Column="1"
+                       Margin="3"/>
+            <TextBox x:Name="PriceTB"
+                       Grid.Row="1" Grid.Column="1"
+                       Margin="3"/>
+            <TextBox x:Name="DurationTB"
+                       Grid.Row="2" Grid.Column="1"
+                       Margin="3"/>
+            <TextBox x:Name="DescriptionTB"
+                       Grid.Row="3" Grid.Column="1"
+                       Margin="3"/>
+            <TextBox x:Name="DiscountTB"
+                       Grid.Row="4" Grid.Column="1"
+                       Margin="3"/>
+            <TextBox x:Name="MainImagePath"
+                       Grid.Row="5" Grid.Column="1"
+                       Margin="3"/>
+        </Grid>
+        <Button x:Name="AddButton"
+                Grid.Row="1"
+                Content="Создать запись"
+                Margin="3" Padding="3"
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                Click="AddButton_Click"/>
+    </Grid>
+</Window>

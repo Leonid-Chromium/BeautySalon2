@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddServiceWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AuthWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NewClientUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NewRecordUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ServiceCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Services.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TODOCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TODOListUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddServiceWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AuthWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NewClientUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NewRecordUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ServiceCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Services.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TODOCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TODOListUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
