@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leonid\\source\\repos\\BeautySalon\\BeautySalon\\BeautySalon.csproj": {}
+    "D:\\File\\GitHub\\BeautySalon2\\BeautySalon\\BeautySalon\\BeautySalon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leonid\\source\\repos\\BeautySalon\\BeautySalon\\BeautySalon.csproj": {
+    "D:\\File\\GitHub\\BeautySalon2\\BeautySalon\\BeautySalon\\BeautySalon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leonid\\source\\repos\\BeautySalon\\BeautySalon\\BeautySalon.csproj",
+        "projectUniqueName": "D:\\File\\GitHub\\BeautySalon2\\BeautySalon\\BeautySalon\\BeautySalon.csproj",
         "projectName": "BeautySalon",
-        "projectPath": "C:\\Users\\Leonid\\source\\repos\\BeautySalon\\BeautySalon\\BeautySalon.csproj",
+        "projectPath": "D:\\File\\GitHub\\BeautySalon2\\BeautySalon\\BeautySalon\\BeautySalon.csproj",
         "packagesPath": "C:\\Users\\Leonid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leonid\\source\\repos\\BeautySalon\\BeautySalon\\obj\\",
+        "outputPath": "D:\\File\\GitHub\\BeautySalon2\\BeautySalon\\BeautySalon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leonid\\AppData\\Roaming\\NuGet\\NuGet.Config",

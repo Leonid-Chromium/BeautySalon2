@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2WfLxWFAC49TVsVH58VrKvudrJUcPkBtpLl5OBDzZPajPV6bmAS6C6nw+JOXewZOYZyggdGiZn+imac87KpAzQ==",
+  "dgSpecHash": "yVutlngqAx6YjGShNl/Jv7UERFs2Esm79G4tMmbVUW0WwoD9Xn0sJsbk1EQrA6MO1aZZgrOsCXsDw6hPI8DDAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leonid\\source\\repos\\BeautySalon\\BeautySalon\\BeautySalon.csproj",
+  "projectFilePath": "D:\\File\\GitHub\\BeautySalon2\\BeautySalon\\BeautySalon\\BeautySalon.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leonid\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Leonid\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
