@@ -109,7 +109,7 @@ namespace BeautySalon {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BeautySalon;V1.0.0.0;component/todocard.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BeautySalon;component/todocard.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\TODOCard.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

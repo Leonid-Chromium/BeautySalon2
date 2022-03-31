@@ -117,7 +117,7 @@ namespace BeautySalon {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BeautySalon;V1.0.0.0;component/addservicewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BeautySalon;component/addservicewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddServiceWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

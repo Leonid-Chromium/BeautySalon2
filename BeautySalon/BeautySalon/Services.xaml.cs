@@ -79,6 +79,7 @@ namespace BeautySalon
             if (search != String.Empty)
             {
                 string filter2 = "Title Like '%" + search + "%' OR Description Like '%" + search + "%'";
+                Trace.WriteLine(filter2);
                 dataView.RowFilter = filter2;
             }
 
